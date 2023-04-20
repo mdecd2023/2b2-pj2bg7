@@ -2,7 +2,8 @@
 <p>cdtemplate</p>
 <p><a href="https://mde.tw/pjcopsim">https://mde.tw/pjcopsim</a></p>
 <h1>w9</h1>
-<p>41023221 陳冠翰 心得:剛開始的時候遇到許多困難與錯誤，最後發現是缺失模組導致舞法連線，所幸最後有成功解決，成功連線後成就感十足。</p>
+<h3>41023221</h3>
+<p>陳冠翰 心得:剛開始的時候遇到許多困難與錯誤，最後發現是缺失模組導致舞法連線，所幸最後有成功解決，成功連線後成就感十足。</p>
 <script>
 var winkVideoData = {
   dataVersion: 1,
@@ -16,7 +17,8 @@ var winkVideoData = {
 <!-- 接下來將 mp4 檔案從 downloads 目錄取出 -->
 <div class="winkVideoContainerClass"><video autoplay="autoplay" class="winkVideoClass" controls="controls" data-dirname="/cmsimde/static" data-varname="winkVideoData" height="600" muted="true" width="800">
 <source src="/downloads/1.mp4" type="video/mp4"/></video></div>
-<p>41023228 陳瑨維 心得:連上組員電腦時，超興奮。</p>
+<h2>41023228</h2>
+<p>陳瑨維 心得:連上組員電腦時，超興奮。</p>
 <p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" frameborder="0" height="315" src="https://www.youtube.com/embed/cDVPZ8nN6QU" title="YouTube video player" width="560"></iframe></p>
 <p></p><h1>Brython</h1>
 <p><a href="https://en.wikipedia.org/wiki/Python_(programming_language)">https://en.wikipedia.org/wiki/Python_(programming_language)</a></p>
@@ -819,38 +821,6 @@ Plotly.newPlot('plot', data, layout)
 &lt;script src="https://cdn.jsdelivr.net/npm/brython@3/dist/brython"&gt;&lt;/script&gt;
 &lt;/body&gt;
 &lt;/html&gt;</pre>
-<p></p>the current iteration and best fitness
-        print(f'Iteration: {iteration + 1}, Best Fitness: {best_fitness:.6f}')
-
-    return best_solution
-
-# Run the sine cosine algorithm to solve the optimization problem with constraints
-best_solution = sine_cosine_algorithm(fitness_function, dimension=2, lower_bound=-10, upper_bound=10, population_size=50, max_iterations=100)
-
-# Print the result
-output_div = document['output']
-output_div.text = f'Best Solution: {best_solution}'
-
-# Plot the result using Plotly.js
-data = [
-    {
-        'x': [best_solution[0]],
-        'y': [best_solution[1]],
-        'mode': 'markers',
-        'marker': {'size': 12},
-        'name': 'Best Solution'
-    }
-]
-
-layout = {
-    'xaxis': {'range': [-10, 10]},
-    'yaxis': {'range': [-10, 10]},
-}
-
-Plotly.newPlot('plot', data, layout)
-&lt;/script&gt;
-
-&lt;script src="https://cdn.jsdelivr.net/npm/brython@3/dist/brython"&gt;&lt;/script&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+<p></p>
+<p>the current iteration and best fitness print(f'Iteration: {iteration + 1}, Best Fitness: {best_fitness:.6f}') return best_solution # Run the sine cosine algorithm to solve the optimization problem with constraints best_solution = sine_cosine_algorithm(fitness_function, dimension=2, lower_bound=-10, upper_bound=10, population_size=50, max_iterations=100) # Print the result output_div = document['output'] output_div.text = f'Best Solution: {best_solution}' # Plot the result using Plotly.js data = [ { 'x': [best_solution[0]], 'y': [best_solution[1]], 'mode': 'markers', 'marker': {'size': 12}, 'name': 'Best Solution' } ] layout = { 'xaxis': {'range': [-10, 10]}, 'yaxis': {'range': [-10, 10]}, } Plotly.newPlot('plot', data, layout) &lt;/script&gt; &lt;script src="https://cdn.jsdelivr.net/npm/brython@3/dist/brython"&gt;&lt;/script&gt; &lt;/body&gt; &lt;/html&gt;</p>
 <p></p>
