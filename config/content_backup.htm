@@ -78,7 +78,7 @@ var winkVideoData = {
 <p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" frameborder="0" height="315" src="https://www.youtube.com/embed/cDVPZ8nN6QU" title="YouTube video player" width="560"></iframe></p>
 <p></p>
 <h1>w10</h1>
-<h2>第一題 </h2>
+<h2>第一題</h2>
 <p>What is zmqRemoteAPI, and how does it relate to CoppeliaSim?</p>
 <p>答</p>
 <p>1.zmqRemoteAPI是 ZeroMQ 的遠程 API 通訊協議，用於在不同的程序之間進行通訊和數據傳輸。</p>
@@ -90,11 +90,38 @@ var winkVideoData = {
 <h2>第三題</h2>
 <p>What are some common use cases for zmqRemoteAPI in CoppeliaSim?</p>
 <p>答</p>
-<p>遠端連接操作</p>
-<h2>第四題</h2>
+<p>在 CoppeliaSim 中，zmqRemoteAPI 可以用於以下一些常見的應用場景：</p>
+<ol>
+<li>
+<p>控制機器人：zmqRemoteAPI 可以用於控制機器人在 CoppeliaSim中的運動和行為，包括設置關節位置、速度和力矩等參數，控制機器人的運動軌跡和姿態，以及獲取機器人的感測器數據和影像信息等。</p>
+</li>
+<li>
+<p>編寫自動化測試：zmqRemoteAPI 可以幫助使用者編寫自動化測試脚本，測試機器人和其他物體的運動和行為，並驗證機器人的控制算法和程序的正確性。</p>
+</li>
+<li>
+<p>設計自主導航系統：zmqRemoteAPI 可以用於設計自主導航系統，通過控制機器人的運動和行為來實現自主導航，並在 CoppeliaSim 中進行仿真測試。</p>
+</li>
+<li>
+<p>進行物體檢測和跟蹤：zmqRemoteAPI 可以用於設計物體檢測和跟蹤系統，通過獲取 CoppeliaSim 中的影像數據和感測器數據來實現物體檢測和跟蹤功能。</p>
+</li>
+</ol>
+<p>zmqRemoteAPI 可以幫助使用者更加靈活方便控制 CoppeliaSim 中的機器人和物體。</p><h2>第四題</h2>
 <p>What are the advantages and disadvantages of using zmqRemoteAPI compared to other methods of communication between Python and CoppeliaSim?</p>
 <p>答</p>
-<h2>第五題</h2>
+<p>優點：</p>
+<ol>
+<li>快速和高效：zmqRemoteAPI使用ZeroMQ消息庫，以其快速和高效的消息傳遞能力而聞名。</li>
+<li>易於使用：zmqRemoteAPI是一個簡單易用的API，提供了一系列函數，可從Python腳本中控制模擬。</li>
+<li>跨語言支持：zmqRemoteAPI是一種跨語言協議，因此您可以使用任何支持ZeroMQ的編程語言。</li>
+<li>支持多個連接：zmqRemoteAPI支持多個連接，因此您可以將多個客戶端連接到單個CoppeliaSim實例。</li>
+</ol>
+<p>缺點：</p>
+<ol>
+<li>功能受限：儘管zmqRemoteAPI提供了一系列函數來控制CoppeliaSim，但與其他通信方法（如ROS或Python的Coppeliasim庫）相比，其功能受限。</li>
+<li>上手難度高：zmqRemoteAPI需要一些ZeroMQ和socket編程的知識，這對於新手用戶來說可能不太容易使用。</li>
+<li>可能出現錯誤：如果通信未正確配置，zmqRemoteAPI容易出現錯誤，這可能會導致消息丟失或模擬停滯等問題。</li>
+<li>彈性較小：與其他通信方法相比，zmqRemoteAPI的自定義彈性較小，因為它依賴於預定義的一組函數。</li>
+</ol><h2>第五題</h2>
 <p>Can you give an example of a project or task that you could complete using zmqRemoteAPI in CoppeliaSim?</p>
 <p>答</p>
 <h2>小組工作分配</h2>
@@ -102,6 +129,7 @@ var winkVideoData = {
 <p>41023221: 討論查詢程式。</p>
 <p>41023222: 場景建設。</p>
 <p>41023228: 討論與設計程式，製作亂數。</p>
+<h2>2b網站順序亂數</h2>
 <p><a href="https://en.wikipedia.org/wiki/Python_(programming_language)"></a></p>
 <h4></h4>
 <!-- 導入 brython 程式庫 -->
